@@ -1,0 +1,79 @@
+label{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.parent_form{
+    display: flex;
+    /* text-align: center; */
+}
+
+@media (max-width: 500px) {
+
+    .parent_form{
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+.form1{
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+@media (max-width: 500px) {
+
+    
+    .form1{
+        border: 2px solid black;
+        width: 50%;
+        border-radius: 10px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    
+}
+
+.form2{
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+
+    
+    .form2{
+        border: 2px solid black;
+        width: 50%;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    
+}
+
+.submit_div{
+    text-align: center;
+}
+
+/* Name, No., date, pic,  */
